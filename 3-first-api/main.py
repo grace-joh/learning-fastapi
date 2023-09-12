@@ -15,4 +15,4 @@ def calculate():
     }
 
 # provide an external server
-uvicorn.run(api, host="127.0.0.1, port=8000")
+uvicorn.run(api, host="127.0.0.1", port=8000)
